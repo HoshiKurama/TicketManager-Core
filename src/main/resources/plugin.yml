@@ -1,0 +1,5 @@
+name: TicketManagerCore
+main: com.github.hoshikurama.tmcore.Plugin
+version: 11.0.0
+api-version: 1.18
+author: HoshiKurama

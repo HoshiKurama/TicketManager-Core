@@ -8,7 +8,7 @@ plugins {
 application.mainClass.set("com.github.hoshikurama.tmcore.Plugin")
 
 group = "com.github.hoshikurama"
-version = "11.0.0"
+version = "11.0.1"
 
 repositories {
     mavenCentral()
@@ -27,9 +27,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-datetime-jvm:0.5.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.2")
 
-    implementation("com.github.HoshiKurama.TicketManager_API:Common:11.0.0")
-    implementation("com.github.HoshiKurama.TicketManager_API:TMCoroutine:11.0.0")
-    implementation("com.github.HoshiKurama.TicketManager_API:Java:11.0.0")
+    implementation("com.github.HoshiKurama.TicketManager_API:Common:11.0.1")
+    implementation("com.github.HoshiKurama.TicketManager_API:TMCoroutine:11.0.1")
+    implementation("com.github.HoshiKurama.TicketManager_API:Java:11.0.1")
 }
 
 tasks {

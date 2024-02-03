@@ -37,10 +37,7 @@ tasks {
         configurations = listOf(project.configurations.runtimeClasspath.get())
 
         dependencies {
-            exclude {
-                println(it.moduleGroup)
-                it.moduleGroup == "net.kyori"
-            }
+            exclude { it.moduleGroup == "net.kyori" }
         }
 
         relocate("kotlin", "com.github.hoshikurama.ticketmanager.shaded.kotlin")

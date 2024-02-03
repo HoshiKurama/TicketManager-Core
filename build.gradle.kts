@@ -8,7 +8,7 @@ plugins {
 application.mainClass.set("com.github.hoshikurama.tmcore.Plugin")
 
 group = "com.github.hoshikurama"
-version = "11.0.1"
+version = "11.0.2"
 
 repositories {
     mavenCentral()

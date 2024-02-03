@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
 
     // Shade these in for Kotlin users
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.21")
@@ -36,7 +36,12 @@ tasks {
     shadowJar {
         configurations = listOf(project.configurations.runtimeClasspath.get())
 
-        dependencies {}
+        dependencies {
+            exclude {
+                println(it.moduleGroup)
+                it.moduleGroup == "net.kyori"
+            }
+        }
 
         relocate("kotlin", "com.github.hoshikurama.ticketmanager.shaded.kotlin")
         relocate("kotlinx", "com.github.hoshikurama.ticketmanager.shaded.kotlinx")

@@ -27,9 +27,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-datetime-jvm:0.6.1")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.7.3")
 
-    implementation("com.github.HoshiKurama.TicketManager_API:Common:11.1.0")
-    implementation("com.github.HoshiKurama.TicketManager_API:TMCoroutine:11.1.0")
-    implementation("com.github.HoshiKurama.TicketManager_API:Java:11.1.0")
+    implementation("com.github.HoshiKurama.TicketManager_API:Common:11.1.1")
+    implementation("com.github.HoshiKurama.TicketManager_API:TMCoroutine:11.1.1")
+    implementation("com.github.HoshiKurama.TicketManager_API:Java:11.1.1")
 }
 
 tasks {

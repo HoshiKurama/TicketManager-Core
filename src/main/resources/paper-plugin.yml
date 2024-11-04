@@ -1,6 +1,6 @@
 name: TicketManagerCore
 main: com.github.hoshikurama.tmcore.Plugin
-version: "11.1.1"
-api-version: "1.19"
+version: "11.1.2"
+api-version: "1.21"
 author: "HoshiKurama"
 folia-supported: true
